@@ -21,6 +21,8 @@ import lawImage from "./assets/law.jpg";
 import { Kontakt } from "./pages/Kontakt";
 import { Impressum } from "./pages/Impressum";
 import { Datenschutz } from "./pages/Datenschutz";
+import { Rechtsgebiete } from "./pages/Rechtsgebiete";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 function App() {
   // Router
@@ -36,6 +38,8 @@ function App() {
   const [currentLocation, setCurrentLocation] = React.useState(
     location?.pathname
   );
+
+  const isMinVW = useMediaQuery("(min-width:425px)");
 
   // const router = createBrowserRouter([
   //   {
@@ -82,6 +86,8 @@ function App() {
             // onChange={(e, f) => {
             //   handleNavigate(e, f);
             // }}
+            variant={isMinVW ? undefined : "scrollable"}
+            scrollButtons="auto"
             centered
             aria-label="basic tabs example"
           >
@@ -97,6 +103,13 @@ function App() {
               value="/vita"
               onClick={() => {
                 handleNavigate("/vita");
+              }}
+            />
+            <Tab
+              label="Rechtsgebiete"
+              value="/rechtsgebiete"
+              onClick={() => {
+                handleNavigate("/rechtsgebiete");
               }}
             />
             <Tab
@@ -124,6 +137,7 @@ function App() {
                 <Routes>
                   <Route path="/*" element={<Home />}></Route>
                   <Route path="/vita" element={<Vita />} />
+                  <Route path="/rechtsgebiete" element={<Rechtsgebiete />} />
                   <Route path="/kontakt" element={<Kontakt />} />
                   <Route path="/impressum" element={<Impressum />} />
                   <Route path="/datenschutz" element={<Datenschutz />} />

@@ -16,22 +16,23 @@ export const Home = () => {
           </Box>
           ,{" "}
           <Box component="span" sx={{ fontWeight: 700 }}>
-            Unterhalt
+            Unterhalts-
           </Box>{" "}
           oder{" "}
           <Box component="span" sx={{ fontWeight: 700 }}>
-            Sorgerecht
+            Sorgerechtsstreit
           </Box>
           . Ich - Rechtsanwalt Jonas Freitag - bin in dieser schwierigen
           Lebenssituation für Sie da! Meine Kanzlei befindet sich in zentraler
-          Lage in Lüneburg mit Parkmöglichkeiten. Ich bin schwerpunktmäßig
-          außergerichtlich und gerichtlich im Bereich des{" "}
+          Lage in Lüneburg. Ich bin schwerpunktmäßig außergerichtlich und
+          gerichtlich im Bereich des{" "}
           <Box component="span" sx={{ fontWeight: 700 }}>
             Familienrechts
           </Box>{" "}
           tätig.
         </Typography>
-        <Typography mt={1}>
+        <br />
+        {/* <Typography mt={1}>
           Ich übernehme die Vertretung unter anderem in folgenden Bereichen:
         </Typography>
         <List>
@@ -44,21 +45,24 @@ export const Home = () => {
             Kindesunterhalt etc.)
           </ListItem>
           <ListItem>- Sorgerecht und Umgangsrecht</ListItem>
-        </List>
+        </List> */}
         <Typography>
-          Vor meiner Tätigkeit als Rechtsanwalt arbeitete ich längere Zeit - bis
-          einschließlich Juni 2022 - schwerpunktmäßig als{" "}
+          Vor meiner Tätigkeit als Rechtsanwalt war ich mehrere Jahre als
+          Staatsanwalt und Richter – und dabei größtenteils als Familienrichter
+          – tätig. Insgesamt kann ich{" "}
           <Box component="span" sx={{ fontWeight: 700 }}>
-            Familienrichter
-          </Box>{" "}
-          an den Amtsgerichten Wolfsburg und Goslar. Im September 2021 wurde ich
-          auf Lebenszeit als Richter am Amtsgericht ernannt. Insgesamt kann ich
-          auf etwa{" "}
-          <Box component="span" sx={{ fontWeight: 700 }}>
-            1.000 familiengerichtliche Verfahren
+            auf etwa 900 familiengerichtliche Verfahren{" "}
           </Box>{" "}
           zurückblicken. Meine dabei gewonnenen Kenntnisse und Erfahrungen setze
-          ich für meine Mandanten gewinnbringend ein!
+          ich nun für meine Mandanten gewinnbringend ein!
+          {/* Im September 2021 wurde ich
+          auf Lebenszeit als Richter am Amtsgericht ernannt. Insgesamt kann ich
+          auf etwa{" "}
+          
+            1.000 familiengerichtliche Verfahren
+         
+          zurückblicken. Meine dabei gewonnenen Kenntnisse und Erfahrungen setze
+          ich für meine Mandanten gewinnbringend ein! */}
         </Typography>
       </Box>
     </Box>
