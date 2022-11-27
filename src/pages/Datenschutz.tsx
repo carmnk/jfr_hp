@@ -28,20 +28,20 @@ export const Datenschutz = () => {
           gelöscht (auch etwaige Backups dieser Daten sind dann gelöscht).
           <br /> Die kurzzeitige Speicherung der Daten ist zur Wahrung der
           berechtigten Interessen des Verantwortlichen und Dritter erforderlich
-          (Art. 6 Abs. 1 f) DSGVO). Ich erhebe im Einzelfall personenbezogene
-          Daten, namentlich Name, Anschrift, Telefonnummer oder E-Mail-Adresse,
-          nur dann, wenn mir diese Daten freiwillig – z.B. durch Kontaktanfragen
-          – zur Verfügung gestellt werden und ich aufgrund der gegebenen
-          Einwilligung oder nach gesetzlichen Regelung zur Verarbeitung,
-          Speicherung und Nutzung berechtigt oder verpflichtet bin oder die
-          Daten zur Abwicklung des Vertragsverhältnisses erforderlich sind und
-          kein Grund zur Annahme besteht, dass ein überwiegend schutzwürdiges
-          Interesse an der Nichtweitergabe der Daten besteht (Art. 6 Abs. 1 S. 1
-          lit. a, b, c, f DSGVO). Die überlassenen Daten verwende ich nur für
-          den Zweck, zu dem sie mir überlassen worden sind. Ihre Verarbeitung
-          erfolgt nach den gesetzlichen Vorschriften. Ihre Daten werden nach
-          Erledigung der Anfrage und Ablauf gesetzlicher Aufbewahrungspflichten
-          gelöscht.
+          (Art. 6 Abs. 1 f) DSGVO). <br />
+          Ich erhebe im Einzelfall personenbezogene Daten, namentlich Name,
+          Anschrift, Telefonnummer oder E-Mail-Adresse, nur dann, wenn mir diese
+          Daten freiwillig – z.B. durch Kontaktanfragen – zur Verfügung gestellt
+          werden und ich aufgrund der gegebenen Einwilligung oder nach
+          gesetzlichen Regelung zur Verarbeitung, Speicherung und Nutzung
+          berechtigt oder verpflichtet bin oder die Daten zur Abwicklung des
+          Vertragsverhältnisses erforderlich sind und kein Grund zur Annahme
+          besteht, dass ein überwiegend schutzwürdiges Interesse an der
+          Nichtweitergabe der Daten besteht (Art. 6 Abs. 1 S. 1 lit. a, b, c, f
+          DSGVO). Die überlassenen Daten verwende ich nur für den Zweck, zu dem
+          sie mir überlassen worden sind. Ihre Verarbeitung erfolgt nach den
+          gesetzlichen Vorschriften. Ihre Daten werden nach Erledigung der
+          Anfrage und Ablauf gesetzlicher Aufbewahrungspflichten gelöscht.
           <br /> Sie haben das Recht,
           <br /> - gem. Art. 15 DSGVO Auskunft über Ihre Daten zu verlangen
           <br /> - nach Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger
@@ -59,7 +59,8 @@ export const Datenschutz = () => {
           gegenüber zu widerrufen mit der Folge, dass ich die Datenverarbeitung,
           die auf der Einwilligung beruhte, für die Zukunft nicht mehr fortführe
           <br /> - gem. Art. 77 DSGVO sich an die Aufsichtsbehörde meiner
-          Kanzlei zu wenden (Landesdatenschutzbeauftragte von Niedersachsen).<br/>
+          Kanzlei zu wenden (Landesdatenschutzbeauftragte von Niedersachsen).
+          <br />
           Einen Datenschutzbeauftragten muss ich nach § 38 Abs. 1 Satz 1 BDSG
           nicht benennen.
         </Typography>

@@ -1,4 +1,4 @@
-import { Box, Link, Typography } from "@mui/material";
+import { Box, Link, Stack, Typography } from "@mui/material";
 import React from "react";
 import { VitaItems } from "../content/vitaItems";
 import whatsapp from "../assets/whatsapp.jpeg";
@@ -23,13 +23,12 @@ export const Kontakt = () => {
         </Typography>
         <br />
         <Typography>
-          Sie können mich <b>rund um die Uhr</b> per <b>E-Mail</b>,{" "}
-          <b>Telefon</b> oder {" "}
-          <b>WhatsApp</b> kontaktieren. Am Telefon erreichen Sie entweder mich
-          oder meine freundliche Bürohilfe oder es besteht die Möglichkeit zum
-          Hinterlassen einer Nachricht. Wenn Sie mich nicht direkt erreichen,
-          rufe ich Sie umgehend zurück. Hinterlassen Sie dafür bitte Ihren Namen
-          und Ihre Telefonnummer.
+          Sie können mich <b>rund um die Uhr</b> per <b>Telefon</b>,{" "}
+          <b>E-Mail</b> oder <b>WhatsApp</b> kontaktieren. Am Telefon erreichen
+          Sie entweder mich oder meine freundliche Bürohilfe oder es besteht die
+          Möglichkeit zum Hinterlassen einer Nachricht. Wenn Sie mich nicht
+          direkt erreichen, rufe ich Sie umgehend zurück. Hinterlassen Sie dafür
+          bitte Ihren Namen und Ihre Telefonnummer.
         </Typography>
         <br />
         {/* <Typography fontWeight={700}>Kanzlei Freitag</Typography>{" "}
@@ -48,7 +47,11 @@ export const Kontakt = () => {
             mail@KanzleiFreitag.de
           </Link>
         </Typography>
-        <Box mt={1}>
+        <Stack mt={1} direction="row" alignItems="center" gap={1}>
+          <Typography fontWeight={700} component="span">
+            {" "}
+            WhatsApp:{" "}
+          </Typography>
           <a
             href="https://api.whatsapp.com/send?phone=49xxxyyyyyyyy"
             title="Senden Sie uns Nachricht über WhatsApp"
@@ -59,11 +62,11 @@ export const Kontakt = () => {
               src={whatsapp}
               alt="WhatsApp"
               // border="0"
-              width={48}
+              width={32}
               // height="39"
             ></img>
           </a>
-        </Box>
+        </Stack>
         <Typography variant="caption">
           <b>DSVGO Hinweis:</b>{" "}
           <i>

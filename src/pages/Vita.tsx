@@ -37,7 +37,7 @@ export const Vita = () => {
         {/* {VitaItems?.map((item) => (
         <VitaItem {...item} />
       ))} */}
-        <Typography>
+        <Typography textAlign="justify" sx={{ textAlignLast: "left" }}>
           Nach meinem ersten juristischen Staatsexamen im Jahr 2014, für das ich
           von der (damaligen) hessischen Justizministerin ausgezeichnet wurde{" "}
           <Link onClick={toggleGleamModal}>
@@ -55,7 +55,9 @@ export const Vita = () => {
           >
             hier
           </Link>
-          . <br />
+          .
+        </Typography>
+        <Typography textAlign="justify" sx={{ textAlignLast: "left" }}>
           <br />
           Zwischen Dezember 2015 und Dezember 2017 absolvierte ich mein
           Referendariat im Oberlandesgerichtsbezirk Braunschweig und beendete

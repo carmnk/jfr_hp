@@ -9,7 +9,7 @@ export const Home = () => {
         Rechtsanwaltskanzlei für Familienrecht
       </Typography>
       <Box pt={2}>
-        <Typography>
+        <Typography textAlign="justify" sx={{ textAlignLast: "left" }}>
           Ob{" "}
           <Box component="span" sx={{ fontWeight: 700 }}>
             Scheidung
@@ -46,7 +46,7 @@ export const Home = () => {
           </ListItem>
           <ListItem>- Sorgerecht und Umgangsrecht</ListItem>
         </List> */}
-        <Typography>
+        <Typography textAlign="justify" sx={{ textAlignLast: "left" }}>
           Vor meiner Tätigkeit als Rechtsanwalt war ich mehrere Jahre als
           Staatsanwalt und Richter – und dabei größtenteils als Familienrichter
           – tätig. Insgesamt kann ich{" "}
