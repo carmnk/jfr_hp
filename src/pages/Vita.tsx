@@ -73,8 +73,29 @@ export const Vita = () => {
           Land- und Oberlandesgerichten.
         </Typography>
       </Box>
-      <Dialog open={openModal} onClose={toggleGleamModal}>
-        <Box component="img" src={gleamDoc} alt="Anerkennungsurkunde" />
+      <Dialog
+        open={openModal}
+        onClose={toggleGleamModal}
+        // PaperProps={{ sx: { height: "90vh", width: "90vw" } }}
+      >
+        {/* <Box width="100%" height="100%" minWidth="sm">
+          ABC
+        </Box> */}
+        {/* <Box
+          component="img"
+          src={gleamDoc}
+          alt="Anerkennungsurkunde"
+          // width="100%"
+          sx={{ width: "100%", maxWidth: 800 }}
+        /> */}
+        <Box
+          // height="100%"
+          component="img"
+          src={gleamDoc}
+          alt="Anerkennungsurkunde"
+          // width="100%"
+          sx={{ maxWidth: "100%", width: 600 }}
+        />
       </Dialog>
     </>
   );
