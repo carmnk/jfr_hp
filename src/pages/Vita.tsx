@@ -37,7 +37,7 @@ export const Vita = () => {
         {/* {VitaItems?.map((item) => (
         <VitaItem {...item} />
       ))} */}
-        <Typography textAlign="justify" sx={{ textAlignLast: "left" }}>
+        <Typography textAlign="justify" sx={{ textAlignLast: "left", pt: 2 }}>
           Nach meinem ersten juristischen Staatsexamen im Jahr 2014, für das ich
           von der (damaligen) hessischen Justizministerin ausgezeichnet wurde{" "}
           <Link onClick={toggleGleamModal}>
