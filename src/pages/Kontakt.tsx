@@ -37,7 +37,7 @@ export const Kontakt = () => {
           21339 Lüneburg <br />
           (gegenüber der Shell-Tankstelle)
         </Typography> */}
-        <Typography fontWeight={700}> Tel.: 04131 / 9925260</Typography>
+        <Link fontWeight={700} href="tel:041319925260"> Tel.: 04131 / 9925260</Link>
         <Typography> Fax: 04131 / 9925261</Typography>
         <br />
         <Typography fontWeight={700}>
