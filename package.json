@@ -1,7 +1,6 @@
 {
-  "name": "my-app",
+  "name": "jfr_hp",
   "version": "0.1.0",
-  "homepage": "https://carmnk.github.io/jfr_hp",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",

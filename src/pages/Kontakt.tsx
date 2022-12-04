@@ -23,6 +23,13 @@ export const Kontakt = () => {
         </Typography>
         <br />
         <Typography>
+          Kanzleianschrift:
+          <br />
+          Vor dem Bardowicker Tore 6a <br />
+          21339 Lüneburg
+        </Typography>
+        <br />
+        <Typography>
           Sie können mich <b>rund um die Uhr</b> per <b>Telefon</b>,{" "}
           <b>E-Mail</b> oder <b>WhatsApp</b> kontaktieren. Am Telefon erreichen
           Sie entweder mich oder meine freundliche Bürohilfe oder es besteht die
@@ -37,7 +44,10 @@ export const Kontakt = () => {
           21339 Lüneburg <br />
           (gegenüber der Shell-Tankstelle)
         </Typography> */}
-        <Link fontWeight={700} href="tel:041319925260"> Tel.: 04131 / 9925260</Link>
+        <Link fontWeight={700} href="tel:041319925260">
+          {" "}
+          Tel.: 04131 / 9925260
+        </Link>
         <Typography> Fax: 04131 / 9925261</Typography>
         <br />
         <Typography fontWeight={700}>
@@ -53,7 +63,7 @@ export const Kontakt = () => {
             WhatsApp:{" "}
           </Typography>
           <a
-            href="https://api.whatsapp.com/send?phone=49xxxyyyyyyyy"
+            href="https://api.whatsapp.com/send?phone=491774214792"
             title="Senden Sie uns Nachricht über WhatsApp"
             target="_blank"
             rel="noreferrer noopener"
